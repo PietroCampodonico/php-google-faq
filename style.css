@@ -44,3 +44,17 @@ h3 {
 a {
     text-decoration: none;
 }
+
+ol {
+    margin-left: 16px;
+}
+
+li {
+    padding-top: 12px;
+    line-height: 24px;
+    padding-left: 16px;
+}
+
+ol>li>ol {
+    list-style: lower-alpha;
+}
